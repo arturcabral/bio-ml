@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hand Detection</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="sketch.js"></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background: black;
+        color: white;
+        font-family:  monospace;
+      }
+      #status {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 8px 12px;
+        border-radius: 6px;
+        background: rgba(0,0,0,0.6);
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="status">mão não detectada</div>
+  </body>
+</html>
